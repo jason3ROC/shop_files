@@ -166,6 +166,7 @@ def list2xml(newtag, taglist, ls_type):
 
 # use the site below as key reference for API communication
 #https://developers.lightspeedhq.com/retail/endpoints/Item/
+# Lightspeed R-series
 
 log_msg('connecting to Lightspeed...')
 
@@ -175,10 +176,10 @@ import lightspeed_requests
 import lightspeed_jrm
 
 # get from OS file
-c = {'account_id': '161824',
-     'client_id': '06dc34ba15a56d339e5bd26dc164a5423d126808a5fb6204c4cc12eaccd462bb',
-     'client_secret': '3b3182c33c9718b14bd0a54d60446cc743385fa75479ec87a94ef47542b76090',
-     'refresh_token': 'e01d914401011883715fd705869894c04ad8a0cf'
+c = {'account_id': '###',
+     'client_id': '####',
+     'client_secret': '###',
+     'refresh_token': '###'
      }
 
 # create new instance of Lightspeed for item tagging
@@ -272,16 +273,16 @@ formatted = {'Item':
 
 # TEST CODE - get item ID and dump JSON
 payload = {'load_relations': "[\"ItemShops\"]"}
+# !!! need to find a way to query to locate itemID based on custom SKU
 df_item = ls1.get('Item/118248', parameters=payload)   # get master list of vendors
 data_dump(df_item, 'items')
 
 # add quantity to item
 # item = ls.create("Item", formatted["Item"])
+# need to modify the itemShopID for each item
 formatted = {"ItemShops": {"ItemShop": {"itemShopID": 745048, "qoh": 12}}}
 item = ls1.update("Item/118248", formatted)
-
 # https://developers.lightspeedhq.com/retail/tutorials/inventory/#adjusting-itemshops-directly
-
 # VERIFY - if item status code is 200 then good
 
 
