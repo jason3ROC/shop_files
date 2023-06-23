@@ -49,6 +49,10 @@ log_msg('program started')
 # *************************
 # ******* connect to Lightspeed API ***********
 # *************************
+
+# use the site below as key reference for API communication
+#https://developers.lightspeedhq.com/retail/endpoints/Item/
+
 log_msg('connecting to Lightspeed...')
 
 # custom modification of https://pypi.org/project/lightspeed-api/
@@ -76,12 +80,9 @@ log_msg('...connected to Lightspeed')
 # ******* main body start ***********
 # *************************
 
-# use the site below as key reference for API communication
-#https://developers.lightspeedhq.com/retail/endpoints/Item/
-
 # define variables needed for upload
 
-# variables from GoFormz
+# variables from GoForm data
 d = description  
 s = consignment sku
 p = price
@@ -136,53 +137,22 @@ formatted = {'Item':
 }
 }
 
-
-
+# upload item to Lightspeed
 item = ls.create("Item", formatted["Item"])
 
+# VERIFY - if item status code is 200 then good
 
 
-OOLD
+# add quantity to item
+item = ls.create("Item", formatted["Item"])
 
-d = description 
+# VERIFY - if item status code is 200 then good
 
-{
-      "defaultCost": "0",
-      "discountable": "true",
-      "tax": "false",
-      "itemType": "default",
-      "serialized": "false",
-      "description": d,
-      "modelYear": "0",
-      "upc": "",
-      "ean": "",
-      "customSku": "12341234",
-      "manufacturerSku": "",
-      "publishToEcom": "true",
-      "categoryID": "1",
-      "taxClassID": "1",
-      "departmentID": "0",
-      "itemMatrixID": "0",
-      "manufacturerID": "0",
-      "seasonID": "0",
-      "defaultVendorID": "0",
-      "Prices": {
-      "ItemPrice": [
-        {
-          "amount": "400",
-          "useTypeID": "1",
-          "useType": "Default"
-        },
-        {
-          "amount": "275",
-          "useTypeID": "2",
-          "useType": "MSRP"
-        },
-        {
-          "amount": "320",
-          "useTypeID": "3",
-          "useType": "Online"
-        }
+
+# add tags to item
+item = ls.create("Item", formatted["Item"])
+
+# VERIFY - if item status code is 200 then good
 
 
 
