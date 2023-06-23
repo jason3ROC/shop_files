@@ -54,6 +54,7 @@ log_msg('connecting to Lightspeed...')
 # custom modification of https://pypi.org/project/lightspeed-api/
 # added some mods since multi tagging can only be done in HTML not JSON uploads
 import lightspeed_requests
+import lightspeed_api_jrm
 
 # get from OS file
 c = {'account_id': '###',
@@ -62,7 +63,11 @@ c = {'account_id': '###',
      'refresh_token': '###'
      }
 
+# create new instance of Lightspeed for item tagging
 ls = lightspeed_requests.Lightspeed(c)
+
+# create new instance of Lightspeed for item upload
+ls1 = lightspeed_api_jrm.Lightspeed(c)
 
 log_msg('...connected to Lightspeed')
 
