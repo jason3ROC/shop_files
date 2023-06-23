@@ -91,11 +91,19 @@ g = g
 
 # for vendor need to lookup master list to see if email address already linked to vendor profile
 # if yes - use vendorID, if no, leave blank and new vendor created
-v = vendor 
+payload = {'load_relations': "Contact"}
+df_vendor = ls.get('Vendor', parameters=payload)   # get master list of vendors
+# !!! not all vendor profiles have email address
+# match to email
+vendorID = ###   # match to vendorID
+
 
 # create a 'list' of {'used','last_name', 'formID'}
 # need to add tags after item creation (?)
 t = tags
+# example code, see function at bottom
+# suspect that functiono reads a string = tag1; tag2; tag3
+r = tags_add('Item', str(df_to_tag['itemID'][i]), str(df_to_tag['Tags.tag_x'][i] + '; locally;'))
 
 
 # static variable
@@ -168,6 +176,99 @@ item = ls.create("Item", formatted["Item"])
 log_msg('program ended')
 
 
+
+
+
+
+
+"""  *************************************************************************************************************
+         ******************************      tags_add()  *******************************************************
+         *************************************************************************************************************
+
+         This function connects to Lightspeed and adds multiple tags 
+"""
+
+def tags_add(ls_type, ID, tags):
+    """
+    receive ID and tags
+    parse tags and format payload
+    put tags to item matrix
+
+    ls_type - type of item
+    ID -
+    tags -
+
+
+    """
+    logging.debug('tags_add called')
+
+    payload = list2xml(newtag, str2list(tags), ls_type)
+    logging.info(payload)
+
+    try:
+        r = lsr.add_tags(ls_type + "/" + str(ID), payload)
+        time.sleep(1)
+
+        try:
+            payload = {'load_relations': "[\"TagRelations.Tag\"]"}
+            item = ls.get(ls_type + '/' + str(ID), parameters=payload)
+            s = str(item[ls_type]['Tags']['tag'])
+            logging.info(f'item {ls_type}: {ID} - found tags to be s - {s}')
+            if newtag in s:
+                logging.info(f'item {ls_type}: {ID} - tagged as {newtag}')
+            else:
+                logging.info(f'item {ls_type}: {ID} - tag error at try loop')
+        except:
+            logging.info(f'item {ls_type}: {ID} - tag error after update')
+            r = 0
+
+    except:
+        logging.info(f'item {ls_type}: {ID} - not tagged.')
+        r=0
+
+    return r
+
+
+def str2list(s):
+
+    if '[' in s:
+        s = s.strip(',')
+        s = s.replace(', ', '')
+        s = s.replace('[', '')
+        s = s.replace(']', '')
+        s = s.replace('\'\'', '\'')
+        s = s[1:-1]
+        s = s.split(sep='\'')
+    else:
+        s = [s]
+
+    try:
+        s.remove(search_tag)                                                                                                  # remove the query tag from the list of new tags to add
+    except:
+        s = s
+
+    print('s: ' + str(s))
+    if type(s) == list:
+        return s
+    else:
+        return ['']
+
+
+def list2xml(newtag, taglist, ls_type):
+    print('taglist: ' + str(taglist))
+    # taglist = taglist.append([newtag])
+    taglist.append(newtag)
+    # taglist = taglist + newtag
+    print('new taglist: ' + str(taglist))
+    prefix = "<" + str(ls_type) + "><Tags>"
+    suffix = "</Tags></" +str(ls_type) + ">"
+    tags = ''
+    for t in taglist:
+        print(t)
+        tags = tags + '<tag>' + str(t) + '</tag>'
+    print('tags: ' + prefix + tags + suffix)
+
+    return prefix + tags + suffix
 
 
 
