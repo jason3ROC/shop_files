@@ -103,7 +103,7 @@ prod_cate = category
 # need to add quantity after item creation (?)
 q = qty
 
-
+formatted = {'Item': 
 {
       "defaultCost": "0",
       "discountable": "true",
@@ -133,6 +133,12 @@ q = qty
           "useType": "Online"
         }
       ]}
+}
+}
+
+
+
+item = ls.create("Item", formatted["Item"])
 
 
 
