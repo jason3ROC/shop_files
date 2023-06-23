@@ -17,7 +17,6 @@ import datetime
 import csv
 import glob
 import os
-import lightspeed_api
 
 # *************************
 # ******* Log file initialize ***********
@@ -51,15 +50,19 @@ log_msg('program started')
 # ******* connect to Lightspeed API ***********
 # *************************
 log_msg('connecting to Lightspeed...')
-import lightspeed_api
 
-c = {'account_id': '161824',
-     'client_id': '06dc34ba15a56d339e5bd26dc164a5423d126808a5fb6204c4cc12eaccd462bb',
-     'client_secret': '3b3182c33c9718b14bd0a54d60446cc743385fa75479ec87a94ef47542b76090',
-     'refresh_token': '09b1eb4aca647a280c37fb77423d79ed70aafc23'
+# custom modification of https://pypi.org/project/lightspeed-api/
+# added some mods since multi tagging can only be done in HTML not JSON uploads
+import lightspeed_requests
+
+# get from OS file
+c = {'account_id': '###',
+     'client_id': '###',
+     'client_secret': '###',
+     'refresh_token': '###'
      }
 
-ls = lightspeed_api.Lightspeed(c)
+ls = lightspeed_requests.Lightspeed(c)
 
 log_msg('...connected to Lightspeed')
 
@@ -68,17 +71,108 @@ log_msg('...connected to Lightspeed')
 # ******* main body start ***********
 # *************************
 
+# use the site below as key reference for API communication
+#https://developers.lightspeedhq.com/retail/endpoints/Item/
+
+# define variables needed for upload
+
+# variables from GoFormz
+d = description  
+s = consignment sku
+p = price
+e = vendor email, name
+g = g
+
+# for vendor need to lookup master list to see if email address already linked to vendor profile
+# if yes - use vendorID, if no, leave blank and new vendor created
+v = vendor 
+
+# create a 'list' of {'used','last_name', 'formID'}
+# need to add tags after item creation (?)
+t = tags
 
 
-# ------------ code fragments ---------------------
+# static variable
+prod_cate = category 
 
-#make for loop to paginate through the entire Customer endpoint
-# log_msg('start pagination')
-# for i in range(math.floor(num_cust/100)):
-#     querylist = {'offset': str(i*100), 'limit': '100'}
-#     cust = ls.get('Customer', parameters=querylist)
-#     log_msg(str(i*100))
-# log_msg('done paginating')
+# need to add quantity after item creation (?)
+q = qty
+
+
+{
+      "defaultCost": "0",
+      "discountable": "true",
+      "tax": "false",
+      "itemType": "default",
+      "description": d,
+      "customSku": s,
+      "categoryID": prod_cate,
+      "taxClassID": "1",
+      "itemMatrixID": "0",
+      "defaultVendorID": v,
+      "Prices": {
+      "ItemPrice": [
+        {
+          "amount": p,
+          "useTypeID": "1",
+          "useType": "Default"
+        },
+        {
+          "amount": "p,
+          "useTypeID": "2",
+          "useType": "MSRP"
+        },
+        {
+          "amount": p,
+          "useTypeID": "3",
+          "useType": "Online"
+        }
+      ]}
+
+
+
+OOLD
+
+d = description 
+
+{
+      "defaultCost": "0",
+      "discountable": "true",
+      "tax": "false",
+      "itemType": "default",
+      "serialized": "false",
+      "description": d,
+      "modelYear": "0",
+      "upc": "",
+      "ean": "",
+      "customSku": "12341234",
+      "manufacturerSku": "",
+      "publishToEcom": "true",
+      "categoryID": "1",
+      "taxClassID": "1",
+      "departmentID": "0",
+      "itemMatrixID": "0",
+      "manufacturerID": "0",
+      "seasonID": "0",
+      "defaultVendorID": "0",
+      "Prices": {
+      "ItemPrice": [
+        {
+          "amount": "400",
+          "useTypeID": "1",
+          "useType": "Default"
+        },
+        {
+          "amount": "275",
+          "useTypeID": "2",
+          "useType": "MSRP"
+        },
+        {
+          "amount": "320",
+          "useTypeID": "3",
+          "useType": "Online"
+        }
+
 
 
 # *************************
