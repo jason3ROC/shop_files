@@ -1,0 +1,5 @@
+c = {'account_id': '161824',
+     'client_id': '06dc34ba15a56d339e5bd26dc164a5423d126808a5fb6204c4cc12eaccd462bb',
+     'client_secret': '3b3182c33c9718b14bd0a54d60446cc743385fa75479ec87a94ef47542b76090',
+     'refresh_token': '09b1eb4aca647a280c37fb77423d79ed70aafc23'
+     }
