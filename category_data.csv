@@ -1,0 +1,381 @@
+categoryID,name,nodeDepth,fullPathName,leftNode,rightNode,parentID,createTime,timeStamp
+1,Soft Goods,0,Soft Goods,567,732,0,2018-01-11T18:17:33+00:00,2025-06-17T21:08:28+00:00
+4,Hard Goods,0,Hard Goods,101,402,0,2018-01-11T18:36:45+00:00,2025-06-17T21:25:15+00:00
+6,Paddlesports,0,Paddlesports,403,476,0,2018-01-11T18:38:12+00:00,2025-06-17T21:25:15+00:00
+8,Men's Tops,2,Soft Goods/Men's Apparel 100/Men's Tops,635,640,1220,2018-01-11T18:39:24+00:00,2025-06-17T21:08:28+00:00
+9,Men's Technical,3,Soft Goods/Men's Apparel 100/Men's Tops/Men's Technical,636,637,8,2018-01-11T18:40:22+00:00,2025-06-17T21:08:28+00:00
+10,PS Hardgoods,1,Paddlesports/PS Hardgoods,446,461,6,2018-01-11T18:43:15+00:00,2025-06-17T21:25:15+00:00
+11,Kayaks 501,2,Paddlesports/PS Hardgoods/Kayaks 501,449,450,10,2018-01-11T18:43:25+00:00,2025-06-17T21:25:15+00:00
+12,SUP 501,2,Paddlesports/PS Hardgoods/SUP 501,459,460,10,2018-01-11T18:43:36+00:00,2025-06-17T21:25:15+00:00
+13,Canoes 501,2,Paddlesports/PS Hardgoods/Canoes 501,447,448,10,2018-01-11T18:44:28+00:00,2025-06-17T21:25:15+00:00
+15,PS Apparel 500,1,Paddlesports/PS Apparel 500,436,445,6,2018-01-11T18:46:21+00:00,2025-06-17T21:25:15+00:00
+17,Men's Town,3,Soft Goods/Men's Apparel 100/Men's Tops/Men's Town,638,639,8,2018-01-11T18:52:12+00:00,2025-06-17T21:08:28+00:00
+18,Men's Footwear 601,1,Footwear/Men's Footwear 601,52,73,299,2018-01-11T18:53:29+00:00,2025-06-17T21:25:15+00:00
+19,Women's Footwear 602,1,Footwear/Women's Footwear 602,74,95,299,2018-01-11T18:53:35+00:00,2025-06-17T21:25:15+00:00
+20,Kid's Footwear 600,1,Footwear/Kid's Footwear 600,36,51,299,2018-01-11T18:53:41+00:00,2025-06-17T21:25:15+00:00
+24,Kids Casual,2,Footwear/Kid's Footwear 600/Kids Casual,37,44,20,2018-01-11T18:56:47+00:00,2025-06-17T21:25:15+00:00
+25,Kids Hiking,2,Footwear/Kid's Footwear 600/Kids Hiking,45,50,20,2018-01-11T18:56:56+00:00,2025-06-17T21:25:15+00:00
+26,Women's Hiking,2,Footwear/Women's Footwear 602/Women's Hiking,85,92,19,2018-01-11T18:58:50+00:00,2025-06-17T21:25:15+00:00
+27,Women's Casual,2,Footwear/Women's Footwear 602/Women's Casual,75,84,19,2018-01-11T18:58:59+00:00,2025-06-17T21:25:15+00:00
+28,Women's Running,2,Footwear/Women's Footwear 602/Women's Running,93,94,19,2018-01-11T18:59:13+00:00,2025-06-17T21:25:15+00:00
+29,PFD's 500,1,Paddlesports/PFD's 500,404,415,6,2018-01-11T18:59:50+00:00,2025-06-17T21:25:15+00:00
+30,Paddles 500,2,Paddlesports/PS Hardgoods/Paddles 500,451,458,10,2018-01-11T19:00:16+00:00,2025-06-17T21:25:15+00:00
+31,Drybags & Cases,2,Paddlesports/PS Accessories 500/Drybags & Cases,417,418,333,2018-01-11T19:00:27+00:00,2025-06-17T21:25:15+00:00
+32,Straps,2,Paddlesports/PS Accessories 500/Straps,433,434,333,2018-01-11T19:05:03+00:00,2025-06-17T21:25:15+00:00
+33,Racks,2,Paddlesports/PS Accessories 500/Racks,429,430,333,2018-01-11T19:06:38+00:00,2025-06-17T21:25:15+00:00
+34,Helmets,2,Paddlesports/PS Accessories 500/Helmets,419,420,333,2018-01-11T19:07:18+00:00,2025-06-17T21:25:15+00:00
+42,Men's PS Footwear,2,Paddlesports/PS Apparel 500/Men's PS Footwear,437,438,15,2018-01-11T19:15:11+00:00,2025-06-17T21:25:15+00:00
+44,PS Gloves,2,Paddlesports/PS Accessories 500/PS Gloves,423,424,333,2018-01-11T19:17:39+00:00,2025-06-17T21:25:15+00:00
+45,PS Repairs,2,Paddlesports/PS Accessories 500/PS Repairs,425,426,333,2018-01-11T19:18:28+00:00,2025-06-17T21:25:15+00:00
+46,Kayak Paddles,3,Paddlesports/PS Hardgoods/Paddles 500/Kayak Paddles,454,455,30,2018-01-11T19:19:39+00:00,2025-06-17T21:25:15+00:00
+47,SUP Paddles,3,Paddlesports/PS Hardgoods/Paddles 500/SUP Paddles,456,457,30,2018-01-11T19:19:44+00:00,2025-06-17T21:25:15+00:00
+48,Canoe Paddles,3,Paddlesports/PS Hardgoods/Paddles 500/Canoe Paddles,452,453,30,2018-01-11T19:20:02+00:00,2025-06-17T21:25:15+00:00
+49,PS Safety,2,Paddlesports/PS Accessories 500/PS Safety,427,428,333,2018-01-11T19:20:42+00:00,2025-06-17T21:25:15+00:00
+50,Men's PFDs,2,Paddlesports/PFD's 500/Men's PFDs,407,408,29,2018-01-11T19:20:59+00:00,2025-06-17T21:25:15+00:00
+51,Women's PFDs,2,Paddlesports/PFD's 500/Women's PFDs,413,414,29,2018-01-11T19:21:19+00:00,2025-06-17T21:25:15+00:00
+52,Kid's PFDs,2,Paddlesports/PFD's 500/Kid's PFDs,405,406,29,2018-01-11T19:21:30+00:00,2025-06-17T21:25:15+00:00
+53,SUP PFDs,2,Paddlesports/PFD's 500/SUP PFDs,409,410,29,2018-01-11T19:21:39+00:00,2025-06-17T21:25:15+00:00
+54,Camp Essentials,1,Hard Goods/Camp Essentials,102,189,4,2018-01-12T01:35:14+00:00,2025-06-17T21:25:15+00:00
+55,Climbing 400,2,Hard Goods/Equipment & Accessories/Climbing 400,241,272,77,2018-01-12T01:35:29+00:00,2025-06-17T21:25:15+00:00
+56,Sleep Systems 300,2,Hard Goods/Camp Essentials/Sleep Systems 300,157,178,54,2018-01-12T01:35:59+00:00,2025-06-17T21:25:15+00:00
+57,Sleeping Pads,3,Hard Goods/Camp Essentials/Sleep Systems 300/Sleeping Pads,176,177,56,2018-01-12T01:36:05+00:00,2025-06-17T21:25:15+00:00
+58,Tents 300,2,Hard Goods/Camp Essentials/Tents 300,179,188,54,2018-01-12T01:36:26+00:00,2025-06-17T21:25:15+00:00
+59,Packs 301,2,Hard Goods/Camp Essentials/Packs 301,113,154,54,2018-01-12T01:39:09+00:00,2025-06-17T21:25:15+00:00
+60,Day Packs,3,Hard Goods/Camp Essentials/Packs 301/Day Packs,124,131,59,2018-01-12T01:39:19+00:00,2025-06-17T21:25:15+00:00
+61,Technical Packs,3,Hard Goods/Camp Essentials/Packs 301/Technical Packs,148,153,59,2018-01-12T01:39:26+00:00,2025-06-17T21:25:15+00:00
+62,Travel Packs,3,Hard Goods/Equipment & Accessories/Travel 400/Travel Packs,388,393,230,2018-01-12T01:39:32+00:00,2025-06-17T21:25:15+00:00
+63,Backpacking Packs,3,Hard Goods/Camp Essentials/Packs 301/Backpacking Packs,114,121,59,2018-01-12T01:39:42+00:00,2025-06-17T21:25:15+00:00
+64,Wheeled Packs,4,Hard Goods/Equipment & Accessories/Travel 400/Travel Packs/Wheeled Packs,391,392,62,2018-01-12T01:39:58+00:00,2025-06-17T21:25:15+00:00
+65,Duffel Packs,4,Hard Goods/Equipment & Accessories/Travel 400/Travel Packs/Duffel Packs,389,390,62,2018-01-12T01:40:04+00:00,2025-06-17T21:25:15+00:00
+66,Day Hiking,4,Hard Goods/Camp Essentials/Packs 301/Day Packs/Day Hiking,127,128,60,2018-01-12T01:40:49+00:00,2025-06-17T21:25:15+00:00
+67,Commuter,4,Hard Goods/Camp Essentials/Packs 301/Day Packs/Commuter,125,126,60,2018-01-12T01:40:55+00:00,2025-06-17T21:25:15+00:00
+68,Multi-day,4,Hard Goods/Camp Essentials/Packs 301/Backpacking Packs/Multi-day,117,118,63,2018-01-12T01:41:22+00:00,2025-06-17T21:25:15+00:00
+70,Hydration Packs,3,Hard Goods/Camp Essentials/Packs 301/Hydration Packs,132,137,59,2018-01-12T01:42:03+00:00,2025-06-17T21:25:15+00:00
+71,Running Hydration,4,Hard Goods/Camp Essentials/Packs 301/Hydration Packs/Running Hydration,135,136,70,2018-01-12T01:42:19+00:00,2025-06-17T21:25:15+00:00
+72,Biking Hydration,4,Hard Goods/Camp Essentials/Packs 301/Hydration Packs/Biking Hydration,133,134,70,2018-01-12T01:42:27+00:00,2025-06-17T21:25:15+00:00
+73,Pack Accessories,3,Hard Goods/Camp Essentials/Packs 301/Pack Accessories,138,139,59,2018-01-12T01:44:01+00:00,2025-06-17T21:25:15+00:00
+74,Stuff Sacks,3,Hard Goods/Camp Essentials/Packs 301/Stuff Sacks,140,147,59,2018-01-12T01:44:20+00:00,2025-06-17T21:25:15+00:00
+75,Dry Stuff Sacks,4,Hard Goods/Camp Essentials/Packs 301/Stuff Sacks/Dry Stuff Sacks,143,144,74,2018-01-12T01:44:40+00:00,2025-06-17T21:25:15+00:00
+76,Non-Dry Stuff Sacks,4,Hard Goods/Camp Essentials/Packs 301/Stuff Sacks/Non-Dry Stuff Sacks,145,146,74,2018-01-12T01:44:50+00:00,2025-06-17T21:25:15+00:00
+77,Equipment & Accessories,1,Hard Goods/Equipment & Accessories,190,401,4,2018-01-12T01:46:02+00:00,2025-06-17T21:25:15+00:00
+78,Climbing Shoes,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Shoes,260,261,55,2018-01-12T01:46:35+00:00,2025-06-17T21:25:15+00:00
+79,Climbing Helmets,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Helmets,254,255,55,2018-01-12T01:47:33+00:00,2025-06-17T21:25:15+00:00
+80,Climbing Harnesses,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Harnesses,252,253,55,2018-01-12T01:47:42+00:00,2025-06-17T21:25:15+00:00
+81,Climbing Protection,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Protection,256,257,55,2018-01-12T01:47:55+00:00,2025-06-17T21:25:15+00:00
+82,Climbing Soft Goods,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Soft Goods,262,263,55,2018-01-12T01:48:12+00:00,2025-06-17T21:25:15+00:00
+83,Climbing Hardware,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Hardware,250,251,55,2018-01-12T01:48:30+00:00,2025-06-17T21:25:15+00:00
+84,Climbing Ropes,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Ropes,258,259,55,2018-01-12T01:48:37+00:00,2025-06-17T21:25:15+00:00
+86,Ice Axes,3,Hard Goods/Equipment & Accessories/Climbing 400/Ice Axes,268,269,55,2018-01-12T01:48:53+00:00,2025-06-17T21:25:15+00:00
+87,Crampons,3,Hard Goods/Equipment & Accessories/Climbing 400/Crampons,264,265,55,2018-01-12T01:48:58+00:00,2025-06-17T21:25:15+00:00
+88,Down SB,4,Hard Goods/Camp Essentials/Sleep Systems 300/Sleeping Bags/Down SB,169,170,385,2018-01-12T01:49:38+00:00,2025-06-17T21:25:15+00:00
+89,Synthetic SB,4,Hard Goods/Camp Essentials/Sleep Systems 300/Sleeping Bags/Synthetic SB,171,172,385,2018-01-12T01:49:45+00:00,2025-06-17T21:25:15+00:00
+90,Hydration 400,2,Hard Goods/Equipment & Accessories/Hydration 400,317,342,77,2018-01-12T01:50:09+00:00,2025-06-17T21:25:15+00:00
+91,Water Bottles,3,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles,320,335,90,2018-01-12T01:50:27+00:00,2025-06-17T21:25:15+00:00
+92,Water Reservoirs,3,Hard Goods/Equipment & Accessories/Hydration 400/Water Reservoirs,340,341,90,2018-01-12T01:51:02+00:00,2025-06-17T21:25:15+00:00
+93,Water Filters,3,Hard Goods/Equipment & Accessories/Hydration 400/Water Filters,336,339,90,2018-01-12T01:51:13+00:00,2025-06-17T21:25:15+00:00
+94,Water Accessories,3,Hard Goods/Equipment & Accessories/Hydration 400/Water Accessories,318,319,90,2018-01-12T01:51:48+00:00,2025-06-17T21:25:15+00:00
+95,Bike Bottles,4,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles/Bike Bottles,321,322,91,2018-01-12T01:52:33+00:00,2025-06-17T21:25:15+00:00
+96,Running Bottles,4,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles/Running Bottles,331,332,91,2018-01-12T01:52:40+00:00,2025-06-17T21:25:15+00:00
+97,Everyday Bottles,4,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles/Everyday Bottles,323,330,91,2018-01-12T01:52:49+00:00,2025-06-17T21:25:15+00:00
+98, Insulated Bottles,5,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles/Everyday Bottles/ Insulated Bottles,324,325,97,2018-01-12T01:56:21+00:00,2025-06-17T21:25:15+00:00
+99,4 Season Tents,3,Hard Goods/Camp Essentials/Tents 300/4 Season Tents,182,183,58,2018-01-12T01:57:50+00:00,2025-06-17T21:25:15+00:00
+100,3 Season Tents,3,Hard Goods/Camp Essentials/Tents 300/3 Season Tents,180,181,58,2018-01-12T01:58:07+00:00,2025-06-17T21:25:15+00:00
+102,Non-Insulated Bottles,5,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles/Everyday Bottles/Non-Insulated Bottles,328,329,97,2018-01-12T01:59:29+00:00,2025-06-17T21:25:15+00:00
+104,Women's PS Footwear,2,Paddlesports/PS Apparel 500/Women's PS Footwear,441,442,15,2018-01-12T02:01:14+00:00,2025-06-17T21:25:15+00:00
+105,Women's PS Layering,2,Paddlesports/PS Apparel 500/Women's PS Layering,443,444,15,2018-01-12T02:01:25+00:00,2025-06-17T21:25:15+00:00
+113,Camp Furniture 300,2,Hard Goods/Camp Essentials/Camp Furniture 300,103,112,54,2018-01-12T02:14:10+00:00,2025-06-17T21:25:15+00:00
+114,Camp Chairs,3,Hard Goods/Camp Essentials/Camp Furniture 300/Camp Chairs,104,105,113,2018-01-12T02:14:22+00:00,2025-06-17T21:25:15+00:00
+115,Camp Tables,3,Hard Goods/Camp Essentials/Camp Furniture 300/Camp Tables,108,109,113,2018-01-12T02:14:30+00:00,2025-06-17T21:25:15+00:00
+116,Hammocks,3,Hard Goods/Camp Essentials/Camp Furniture 300/Hammocks,110,111,113,2018-01-12T02:14:38+00:00,2025-06-17T21:25:15+00:00
+117,Camp Games,3,Hard Goods/Camp Essentials/Camp Furniture 300/Camp Games,106,107,113,2018-01-12T02:15:04+00:00,2025-06-17T21:25:15+00:00
+118,Electronics 400,2,Hard Goods/Equipment & Accessories/Electronics 400,285,294,77,2018-01-12T02:15:50+00:00,2025-06-17T21:25:15+00:00
+119,Cameras,3,Hard Goods/Equipment & Accessories/Electronics 400/Cameras,286,287,118,2018-01-12T02:16:29+00:00,2025-06-17T21:25:15+00:00
+120,GPS Watches,3,Hard Goods/Equipment & Accessories/Electronics 400/GPS Watches,290,291,118,2018-01-12T02:16:34+00:00,2025-06-17T21:25:15+00:00
+121,GPS Devices,3,Hard Goods/Equipment & Accessories/Electronics 400/GPS Devices,288,289,118,2018-01-12T02:16:42+00:00,2025-06-17T21:25:15+00:00
+122,Power Devices,3,Hard Goods/Equipment & Accessories/Electronics 400/Power Devices,292,293,118,2018-01-12T02:17:02+00:00,2025-06-17T21:25:15+00:00
+123,Lighting 410,2,Hard Goods/Equipment & Accessories/Lighting 410,365,372,77,2018-01-12T02:17:56+00:00,2025-06-17T21:25:15+00:00
+126,Other Lighting,3,Hard Goods/Equipment & Accessories/Lighting 410/Other Lighting,370,371,123,2018-01-12T02:19:00+00:00,2025-06-17T21:25:15+00:00
+127,Camp Kitchen 404,2,Hard Goods/Equipment & Accessories/Camp Kitchen 404,213,240,77,2018-01-12T02:20:51+00:00,2025-06-17T21:25:15+00:00
+128,Stoves,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Stoves,236,237,127,2018-01-12T02:21:27+00:00,2025-06-17T21:25:15+00:00
+129,Camp Fuel,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Camp Fuel,216,223,127,2018-01-12T02:21:48+00:00,2025-06-17T21:25:15+00:00
+130,Cookware,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Cookware,228,229,127,2018-01-12T02:22:05+00:00,2025-06-17T21:25:15+00:00
+131,Utensils,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Utensils,238,239,127,2018-01-12T02:22:12+00:00,2025-06-17T21:25:15+00:00
+132,Camp Food,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Camp Food,214,215,127,2018-01-12T02:22:27+00:00,2025-06-17T21:25:15+00:00
+133,Pressurized,4,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Camp Fuel/Pressurized,219,220,129,2018-01-12T02:23:04+00:00,2025-06-17T21:25:15+00:00
+134,Bulk Liquid,4,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Camp Fuel/Bulk Liquid,217,218,129,2018-01-12T02:23:10+00:00,2025-06-17T21:25:15+00:00
+139,Books 409,2,Hard Goods/Equipment & Accessories/Books 409,201,208,77,2018-01-12T02:45:21+00:00,2025-06-17T21:25:15+00:00
+140,Knives 410,2,Hard Goods/Equipment & Accessories/Knives 410,363,364,77,2018-01-12T02:45:28+00:00,2025-06-17T21:25:15+00:00
+141,Safety 410,2,Hard Goods/Equipment & Accessories/Safety 410,377,382,77,2018-01-12T02:46:18+00:00,2025-06-17T21:25:15+00:00
+142,First Aid,3,Hard Goods/Equipment & Accessories/Safety 410/First Aid,378,379,141,2018-01-12T02:46:36+00:00,2025-06-17T21:25:15+00:00
+143,Survival,3,Hard Goods/Equipment & Accessories/Safety 410/Survival,380,381,141,2018-01-12T02:46:45+00:00,2025-06-17T21:25:15+00:00
+145,Hygiene 410,2,Hard Goods/Equipment & Accessories/Hygiene 410,343,362,77,2018-01-12T02:51:56+00:00,2025-06-17T21:25:15+00:00
+146,Towels,3,Hard Goods/Equipment & Accessories/Hygiene 410/Towels,358,359,145,2018-01-12T02:52:10+00:00,2025-06-17T21:25:15+00:00
+147,Showers,3,Hard Goods/Equipment & Accessories/Hygiene 410/Showers,350,351,145,2018-01-12T02:52:17+00:00,2025-06-17T21:25:15+00:00
+148,Soap,3,Hard Goods/Equipment & Accessories/Hygiene 410/Soap,354,355,145,2018-01-12T02:52:21+00:00,2025-06-17T21:25:15+00:00
+149,Sun Protection,3,Hard Goods/Equipment & Accessories/Hygiene 410/Sun Protection,356,357,145,2018-01-12T02:52:35+00:00,2025-06-17T21:25:15+00:00
+150,Bug Repellent,3,Hard Goods/Equipment & Accessories/Hygiene 410/Bug Repellent,344,345,145,2018-01-12T02:52:44+00:00,2025-06-17T21:25:15+00:00
+151,Trowels,3,Hard Goods/Equipment & Accessories/Hygiene 410/Trowels,360,361,145,2018-01-12T02:52:49+00:00,2025-06-17T21:25:15+00:00
+152,Lube,3,Hard Goods/Equipment & Accessories/Hygiene 410/Lube,348,349,145,2018-01-12T02:53:01+00:00,2025-06-17T21:25:15+00:00
+153,Skincare,3,Hard Goods/Equipment & Accessories/Hygiene 410/Skincare,352,353,145,2018-01-12T02:53:07+00:00,2025-06-17T21:25:15+00:00
+154,Dog 409,2,Hard Goods/Equipment & Accessories/Dog 409,273,284,77,2018-01-12T02:53:52+00:00,2025-06-17T21:25:15+00:00
+155,Leashes,3,Hard Goods/Equipment & Accessories/Dog 409/Leashes,278,279,154,2018-01-12T02:54:11+00:00,2025-06-17T21:25:15+00:00
+156,Harnesses,3,Hard Goods/Equipment & Accessories/Dog 409/Harnesses,276,277,154,2018-01-12T02:54:17+00:00,2025-06-17T21:25:15+00:00
+157,Packs,3,Hard Goods/Equipment & Accessories/Dog 409/Packs,282,283,154,2018-01-12T02:54:20+00:00,2025-06-17T21:25:15+00:00
+158,PFDs,3,Hard Goods/Equipment & Accessories/Dog 409/PFDs,280,281,154,2018-01-12T02:54:32+00:00,2025-06-17T21:25:15+00:00
+159,Home Goods 409,2,Hard Goods/Equipment & Accessories/Home Goods 409,295,316,77,2018-01-12T02:54:47+00:00,2025-06-17T21:25:15+00:00
+160,Art,3,Hard Goods/Equipment & Accessories/Home Goods 409/Art,298,299,159,2018-01-12T02:55:01+00:00,2025-06-17T21:25:15+00:00
+161,Ceramics,3,Hard Goods/Equipment & Accessories/Home Goods 409/Ceramics,304,305,159,2018-01-12T02:55:08+00:00,2025-06-17T21:25:15+00:00
+162,Blankets,3,Hard Goods/Equipment & Accessories/Home Goods 409/Blankets,300,301,159,2018-01-12T02:55:15+00:00,2025-06-17T21:25:15+00:00
+164,Photography,3,Hard Goods/Equipment & Accessories/Home Goods 409/Photography,312,313,159,2018-01-12T02:56:00+00:00,2025-06-17T21:25:15+00:00
+166,Used Goods 700,0,Used Goods 700,733,748,0,2018-01-12T03:00:42+00:00,2025-06-17T21:08:28+00:00
+167,Used Women's Apparel,1,Used Goods 700/Used Women's Apparel,746,747,166,2018-01-12T03:01:01+00:00,2025-06-17T21:08:28+00:00
+168,Used Men's Apparel,1,Used Goods 700/Used Men's Apparel,740,741,166,2018-01-12T03:01:09+00:00,2025-06-17T21:08:28+00:00
+169,Used Hard Goods,1,Used Goods 700/Used Hard Goods,738,739,166,2018-01-12T03:01:19+00:00,2025-06-17T21:08:28+00:00
+170,Used Footwear,1,Used Goods 700/Used Footwear,736,737,166,2018-01-12T03:01:25+00:00,2025-06-17T21:08:28+00:00
+171,Used Snow Gear,1,Used Goods 700/Used Snow Gear,744,745,166,2018-01-12T03:01:42+00:00,2025-06-17T21:08:28+00:00
+172,Used Paddlesports,1,Used Goods 700/Used Paddlesports,742,743,166,2018-01-12T03:03:25+00:00,2025-06-17T21:08:28+00:00
+173,Men's Bottoms,2,Soft Goods/Men's Apparel 100/Men's Bottoms,597,602,1220,2018-01-12T03:04:34+00:00,2025-06-17T21:08:28+00:00
+174,Men's Technical,3,Soft Goods/Men's Apparel 100/Men's Bottoms/Men's Technical,598,599,173,2018-01-12T03:04:47+00:00,2025-06-17T21:08:28+00:00
+175,Men's Town,3,Soft Goods/Men's Apparel 100/Men's Bottoms/Men's Town,600,601,173,2018-01-12T03:04:50+00:00,2025-06-17T21:08:28+00:00
+178,Men's Baselayers,2,Soft Goods/Men's Apparel 100/Men's Baselayers,595,596,1220,2018-01-12T03:05:16+00:00,2025-06-17T21:08:28+00:00
+179,Men's Swimwear,2,Soft Goods/Men's Apparel 100/Men's Swimwear,633,634,1220,2018-01-12T03:05:22+00:00,2025-06-17T21:08:28+00:00
+180,Men's Soft Accessories,2,Soft Goods/Men's Apparel 100/Men's Soft Accessories,625,632,1220,2018-01-12T03:05:45+00:00,2025-06-17T21:08:28+00:00
+182,Women's Tops,2,Soft Goods/Women's Apparel 200/Women's Tops,725,730,185,2018-01-12T03:06:23+00:00,2025-06-17T21:08:28+00:00
+183,Women's Bottoms,2,Soft Goods/Women's Apparel 200/Women's Bottoms,681,686,185,2018-01-12T03:06:29+00:00,2025-06-17T21:08:28+00:00
+185,Women's Apparel 200,1,Soft Goods/Women's Apparel 200,676,731,1,2018-01-12T03:10:37+00:00,2025-06-17T21:08:28+00:00
+186,Women's Technical,3,Soft Goods/Women's Apparel 200/Women's Tops/Women's Technical,726,727,182,2018-01-12T03:11:48+00:00,2025-06-17T21:08:28+00:00
+187,Women's Town,3,Soft Goods/Women's Apparel 200/Women's Tops/Women's Town,728,729,182,2018-01-12T03:11:51+00:00,2025-06-17T21:08:28+00:00
+188,Women's Technical,3,Soft Goods/Women's Apparel 200/Women's Bottoms/Women's Technical,682,683,183,2018-01-12T03:15:03+00:00,2025-06-17T21:08:28+00:00
+189,Women's Town,3,Soft Goods/Women's Apparel 200/Women's Bottoms/Women's Town,684,685,183,2018-01-12T03:15:06+00:00,2025-06-17T21:08:28+00:00
+192,Women's Swimwear,2,Soft Goods/Women's Apparel 200/Women's Swimwear,723,724,185,2018-01-12T03:16:05+00:00,2025-06-17T21:08:28+00:00
+193,Women's Soft Accessories,2,Soft Goods/Women's Apparel 200/Women's Soft Accessories,711,722,185,2018-01-12T03:16:15+00:00,2025-06-17T21:08:28+00:00
+194,Kid's Apparel 200,1,Soft Goods/Kid's Apparel 200,568,593,1,2018-01-12T03:16:47+00:00,2025-06-17T21:08:28+00:00
+195,Kid's Tops,2,Soft Goods/Kid's Apparel 200/Kid's Tops,591,592,194,2018-01-12T03:16:55+00:00,2025-06-17T21:08:28+00:00
+196,Kid's Bottoms,2,Soft Goods/Kid's Apparel 200/Kid's Bottoms,571,572,194,2018-01-12T03:17:04+00:00,2025-06-17T21:08:28+00:00
+199,Kid's Baselayers,2,Soft Goods/Kid's Apparel 200/Kid's Baselayers,569,570,194,2018-01-12T03:17:28+00:00,2025-06-17T21:08:28+00:00
+200,Kid's Swimwear,2,Soft Goods/Kid's Apparel 200/Kid's Swimwear,589,590,194,2018-01-12T03:17:38+00:00,2025-06-17T21:08:28+00:00
+201,Biking 400,2,Hard Goods/Equipment & Accessories/Biking 400,191,200,77,2018-01-12T03:18:55+00:00,2025-06-17T21:25:15+00:00
+202,Bike Shoes,3,Hard Goods/Equipment & Accessories/Biking 400/Bike Shoes,198,199,201,2018-01-12T03:19:12+00:00,2025-06-17T21:25:15+00:00
+203,Bike Parts,3,Hard Goods/Equipment & Accessories/Biking 400/Bike Parts,196,197,201,2018-01-12T03:19:42+00:00,2025-06-17T21:25:15+00:00
+204,Bike Packs,3,Hard Goods/Equipment & Accessories/Biking 400/Bike Packs,194,195,201,2018-01-12T03:20:51+00:00,2025-06-17T21:25:15+00:00
+205,Kids Casual Sandal,3,Footwear/Kid's Footwear 600/Kids Casual/Kids Casual Sandal,40,41,24,2018-01-15T02:44:36+00:00,2025-06-17T21:25:15+00:00
+206,Kids Casual Boot,3,Footwear/Kid's Footwear 600/Kids Casual/Kids Casual Boot,38,39,24,2018-01-15T02:44:47+00:00,2025-06-17T21:25:15+00:00
+207,Kids Casual Shoe,3,Footwear/Kid's Footwear 600/Kids Casual/Kids Casual Shoe,42,43,24,2018-01-15T02:44:54+00:00,2025-06-17T21:25:15+00:00
+208,Kids Hiking Low,3,Footwear/Kid's Footwear 600/Kids Hiking/Kids Hiking Low,48,49,25,2018-01-15T02:45:13+00:00,2025-06-17T21:25:15+00:00
+209,Kids Hiking High,3,Footwear/Kid's Footwear 600/Kids Hiking/Kids Hiking High,46,47,25,2018-01-15T02:45:20+00:00,2025-06-17T21:25:15+00:00
+210,Men's Casual Sandal,3,Footwear/Men's Footwear 601/Men's Casual/Men's Casual Sandal,56,57,392,2018-01-15T02:45:38+00:00,2025-06-17T21:25:15+00:00
+211,Men's Casual Water,3,Footwear/Men's Footwear 601/Men's Casual/Men's Casual Water,60,61,392,2018-01-15T02:45:43+00:00,2025-06-17T21:25:15+00:00
+212,Men's Casual Boot,3,Footwear/Men's Footwear 601/Men's Casual/Men's Casual Boot,54,55,392,2018-01-15T02:45:52+00:00,2025-06-17T21:25:15+00:00
+213,Men's Casual Shoe,3,Footwear/Men's Footwear 601/Men's Casual/Men's Casual Shoe,58,59,392,2018-01-15T02:45:58+00:00,2025-06-17T21:25:15+00:00
+214,Men's Hiking Low,3,Footwear/Men's Footwear 601/Men's Hiking/Men's Hiking Low,66,67,553,2018-01-15T02:46:13+00:00,2025-06-17T21:25:15+00:00
+215,Men's Hiking Mid,3,Footwear/Men's Footwear 601/Men's Hiking/Men's Hiking Mid,68,69,553,2018-01-15T02:46:20+00:00,2025-06-17T21:25:15+00:00
+217,Women's Casual Sandal,3,Footwear/Women's Footwear 602/Women's Casual/Women's Casual Sandal,78,79,27,2018-01-15T02:46:56+00:00,2025-06-17T21:25:15+00:00
+218,Women's Casual Water,3,Footwear/Women's Footwear 602/Women's Casual/Women's Casual Water,82,83,27,2018-01-15T02:47:01+00:00,2025-06-17T21:25:15+00:00
+219,Women's Casual Boot,3,Footwear/Women's Footwear 602/Women's Casual/Women's Casual Boot,76,77,27,2018-01-15T02:47:08+00:00,2025-06-17T21:25:15+00:00
+220,Women's Casual Shoe,3,Footwear/Women's Footwear 602/Women's Casual/Women's Casual Shoe,80,81,27,2018-01-15T02:47:14+00:00,2025-06-17T21:25:15+00:00
+221,Women's Hiking Low,3,Footwear/Women's Footwear 602/Women's Hiking/Women's Hiking Low,88,89,26,2018-01-15T02:47:38+00:00,2025-06-17T21:25:15+00:00
+222,Women's Hiking Mid,3,Footwear/Women's Footwear 602/Women's Hiking/Women's Hiking Mid,90,91,26,2018-01-15T02:47:43+00:00,2025-06-17T21:25:15+00:00
+223,Women's Hiking High,3,Footwear/Women's Footwear 602/Women's Hiking/Women's Hiking High,86,87,26,2018-01-15T02:47:50+00:00,2025-06-17T21:25:15+00:00
+224,Bivy,3,Hard Goods/Camp Essentials/Tents 300/Bivy,184,185,58,2018-01-15T02:48:54+00:00,2025-06-17T21:25:15+00:00
+225,Travel Guides,3,Hard Goods/Equipment & Accessories/Books 409/Travel Guides,206,207,139,2018-01-15T02:49:32+00:00,2025-06-17T21:25:15+00:00
+226,How To Books,3,Hard Goods/Equipment & Accessories/Books 409/How To Books,204,205,139,2018-01-15T02:49:40+00:00,2025-06-17T21:25:15+00:00
+227,Fiction,3,Hard Goods/Equipment & Accessories/Books 409/Fiction,202,203,139,2018-01-15T02:49:46+00:00,2025-06-17T21:25:15+00:00
+228,Dog Accessories,3,Hard Goods/Equipment & Accessories/Dog 409/Dog Accessories,274,275,154,2018-01-15T02:51:28+00:00,2025-06-17T21:25:15+00:00
+229,Coffee Equipment,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Coffee Equipment,226,227,127,2018-01-15T02:53:54+00:00,2025-06-17T21:25:15+00:00
+230,Travel 400,2,Hard Goods/Equipment & Accessories/Travel 400,385,394,77,2018-01-16T00:48:54+00:00,2025-06-17T21:25:15+00:00
+232,Travel Accessories,3,Hard Goods/Equipment & Accessories/Travel 400/Travel Accessories,386,387,230,2018-01-16T00:49:07+00:00,2025-06-17T21:25:15+00:00
+233,Women's Skirts & Dresses,2,Soft Goods/Women's Apparel 200/Women's Skirts & Dresses,707,710,185,2018-01-23T15:27:23+00:00,2025-06-17T21:08:28+00:00
+234,Gaiters 600,1,Footwear/Gaiters 600,30,35,299,2018-04-04T02:10:30+00:00,2025-06-17T21:25:15+00:00
+235,Footwear Accessories 600,1,Footwear/Footwear Accessories 600,8,29,299,2018-04-04T02:10:59+00:00,2025-06-17T21:25:15+00:00
+239,Ultra Light,4,Hard Goods/Camp Essentials/Packs 301/Backpacking Packs/Ultra Light,119,120,63,2018-04-04T02:14:39+00:00,2025-06-17T21:25:15+00:00
+240,Climbing,4,Hard Goods/Camp Essentials/Packs 301/Technical Packs/Climbing,149,150,61,2018-04-04T02:15:06+00:00,2025-06-17T21:25:15+00:00
+241,Snow,4,Hard Goods/Camp Essentials/Packs 301/Technical Packs/Snow,151,152,61,2018-04-04T02:15:11+00:00,2025-06-17T21:25:15+00:00
+244,Soft Accessories 106,1,Soft Goods/Soft Accessories 106,642,675,1,2018-04-04T02:18:05+00:00,2025-06-17T21:08:28+00:00
+245,Kid's Outerwear,2,Soft Goods/Kid's Apparel 200/Kid's Outerwear,573,580,194,2018-04-04T02:18:27+00:00,2025-06-17T21:08:28+00:00
+246,Kid's Insulated,3,Soft Goods/Kid's Apparel 200/Kid's Outerwear/Kid's Insulated,578,579,245,2018-04-04T02:19:26+00:00,2025-06-17T21:08:28+00:00
+247,Kid's Hardshell,3,Soft Goods/Kid's Apparel 200/Kid's Outerwear/Kid's Hardshell,576,577,245,2018-04-04T02:19:35+00:00,2025-06-17T21:08:28+00:00
+248,Kid's Fleece,3,Soft Goods/Kid's Apparel 200/Kid's Outerwear/Kid's Fleece,574,575,245,2018-04-04T02:19:39+00:00,2025-06-17T21:08:28+00:00
+249,Kid's Soft Accessories,2,Soft Goods/Kid's Apparel 200/Kid's Soft Accessories,581,588,194,2018-04-04T02:20:01+00:00,2025-06-17T21:08:28+00:00
+250,Gloves,3,Soft Goods/Kid's Apparel 200/Kid's Soft Accessories/Gloves,582,583,249,2018-04-04T02:20:20+00:00,2025-06-17T21:08:28+00:00
+255,Belts,3,Soft Goods/Men's Apparel 100/Men's Soft Accessories/Belts,626,627,180,2018-04-04T02:21:07+00:00,2025-06-17T21:08:28+00:00
+256,Other Soft Accessory,3,Soft Goods/Men's Apparel 100/Men's Soft Accessories/Other Soft Accessory,630,631,180,2018-04-04T02:21:16+00:00,2025-06-17T21:08:28+00:00
+257,Men's Outerwear,2,Soft Goods/Men's Apparel 100/Men's Outerwear,603,624,1220,2018-04-04T02:21:30+00:00,2025-06-17T21:08:28+00:00
+260,Men's Fleece,3,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Fleece,604,609,257,2018-04-04T02:22:17+00:00,2025-06-17T21:08:28+00:00
+261,Gloves,2,Soft Goods/Soft Accessories 106/Gloves,643,652,244,2018-04-04T02:23:38+00:00,2025-06-17T21:08:28+00:00
+262,Hats,2,Soft Goods/Soft Accessories 106/Hats,653,660,244,2018-04-04T02:23:42+00:00,2025-06-17T21:08:28+00:00
+264,Soft Accessories,2,Soft Goods/Soft Accessories 106/Soft Accessories,661,668,244,2018-04-04T02:23:57+00:00,2025-06-17T21:08:28+00:00
+265,Women's Outerwear,2,Soft Goods/Women's Apparel 200/Women's Outerwear,687,706,185,2018-04-04T02:24:46+00:00,2025-06-17T21:08:28+00:00
+267,Women's Fleece,3,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Fleece,688,691,265,2018-04-04T02:24:58+00:00,2025-06-17T21:08:28+00:00
+269,Gloves,3,Soft Goods/Women's Apparel 200/Women's Soft Accessories/Gloves,714,715,193,2018-04-04T02:25:21+00:00,2025-06-17T21:08:28+00:00
+270,Hats,3,Soft Goods/Women's Apparel 200/Women's Soft Accessories/Hats,716,717,193,2018-04-04T02:25:41+00:00,2025-06-17T21:08:28+00:00
+271,Scarfs,3,Soft Goods/Women's Apparel 200/Women's Soft Accessories/Scarfs,720,721,193,2018-04-04T02:25:45+00:00,2025-06-17T21:08:28+00:00
+272,Belts,3,Soft Goods/Women's Apparel 200/Women's Soft Accessories/Belts,712,713,193,2018-04-04T02:25:58+00:00,2025-06-17T21:08:28+00:00
+273,Trekking Poles 410,2,Hard Goods/Equipment & Accessories/Trekking Poles 410,395,400,77,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+274,Trek Pole Accessory,3,Hard Goods/Equipment & Accessories/Trekking Poles 410/Trek Pole Accessory,396,397,273,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+276,Trekking Poles,3,Hard Goods/Equipment & Accessories/Trekking Poles 410/Trekking Poles,398,399,273,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+281,Iron,3,Hard Goods/Equipment & Accessories/Climbing 400/Iron,270,271,55,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+282,Chalk,3,Hard Goods/Equipment & Accessories/Climbing 400/Chalk,246,247,55,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+283,Bouldering Pad,3,Hard Goods/Equipment & Accessories/Climbing 400/Bouldering Pad,244,245,55,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+285,Belay Device,3,Hard Goods/Equipment & Accessories/Climbing 400/Belay Device,242,243,55,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+286,Helmet,3,Hard Goods/Equipment & Accessories/Climbing 400/Helmet,266,267,55,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+287,Headlamp,3,Hard Goods/Equipment & Accessories/Lighting 410/Headlamp,366,367,123,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+288,Lantern,3,Hard Goods/Equipment & Accessories/Lighting 410/Lantern,368,369,123,2018-04-04T03:02:30+00:00,2025-06-17T21:25:15+00:00
+299,Footwear,0,Footwear,7,96,0,2018-04-04T03:14:42+00:00,2025-06-17T21:25:15+00:00
+304,Glove Liners,3,Soft Goods/Soft Accessories 106/Gloves/Glove Liners,648,649,261,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+305,Freeride Gloves,3,Soft Goods/Soft Accessories 106/Gloves/Freeride Gloves,646,647,261,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+306,Ascent Gloves,3,Soft Goods/Soft Accessories 106/Gloves/Ascent Gloves,644,645,261,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+307,Lightweight Gloves,3,Soft Goods/Soft Accessories 106/Gloves/Lightweight Gloves,650,651,261,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+312,Other Accessory,3,Soft Goods/Women's Apparel 200/Women's Soft Accessories/Other Accessory,718,719,193,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+315,Beanie,3,Soft Goods/Soft Accessories 106/Hats/Beanie,654,655,262,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+316,Facemask-Balaclava,3,Soft Goods/Soft Accessories 106/Hats/Facemask-Balaclava,656,657,262,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+319,Tops,4,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Insulation/Tops,619,620,402,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+320,Men's Hardshells,3,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Hardshells,610,615,257,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+321,Bottoms,4,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Hardshells/Bottoms,611,612,320,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+323,Top,4,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Fleece/Top,607,608,260,2018-04-04T03:14:42+00:00,2025-06-17T21:08:28+00:00
+324,Bottoms,4,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Insulation/Bottoms,617,618,402,2018-04-04T03:42:46+00:00,2025-06-17T21:08:28+00:00
+326,Women's Hardshells,3,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Hardshells,692,697,265,2018-04-04T03:42:46+00:00,2025-06-17T21:08:28+00:00
+327,Bottoms,4,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Hardshells/Bottoms,693,694,326,2018-04-04T03:42:46+00:00,2025-06-17T21:08:28+00:00
+329,Top,4,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Fleece/Top,689,690,267,2018-04-04T03:42:46+00:00,2025-06-17T21:08:28+00:00
+331,Running Gaiters,2,Footwear/Gaiters 600/Running Gaiters,33,34,234,2018-04-05T16:43:38+00:00,2025-06-17T21:25:15+00:00
+332,Hiking Gaiters,2,Footwear/Gaiters 600/Hiking Gaiters,31,32,234,2018-04-05T16:43:47+00:00,2025-06-17T21:25:15+00:00
+333,PS Accessories 500,1,Paddlesports/PS Accessories 500,416,435,6,2018-04-05T16:45:06+00:00,2025-06-17T21:25:15+00:00
+334,Other PS Accessories,2,Paddlesports/PS Accessories 500/Other PS Accessories,421,422,333,2018-04-05T16:55:07+00:00,2025-06-17T21:25:15+00:00
+335,Unisex PFDs,2,Paddlesports/PFD's 500/Unisex PFDs,411,412,29,2018-04-05T16:58:25+00:00,2025-06-17T21:25:15+00:00
+343,Alcohol,3,Hard Goods/Equipment & Accessories/Home Goods 409/Alcohol,296,297,159,2018-04-06T04:08:34+00:00,2025-06-17T21:25:15+00:00
+344,Cooler Packs,3,Hard Goods/Camp Essentials/Packs 301/Cooler Packs,122,123,59,2018-04-06T04:09:13+00:00,2025-06-17T21:25:15+00:00
+345,Lifestyle,4,Hard Goods/Camp Essentials/Packs 301/Day Packs/Lifestyle,129,130,60,2018-04-06T04:09:22+00:00,2025-06-17T21:25:15+00:00
+346,Coolers,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Coolers,230,231,127,2018-04-06T04:10:02+00:00,2025-06-17T21:25:15+00:00
+350,Wallets,3,Soft Goods/Soft Accessories 106/Soft Accessories/Wallets,666,667,264,2018-04-06T17:44:27+00:00,2025-06-17T21:08:28+00:00
+354,Snow Sports 929,0,Snow Sports 929,515,566,0,2018-04-06T21:04:52+00:00,2025-06-17T21:08:28+00:00
+356,Snowshoes,1,Snow Sports 929/Snowshoes,560,561,354,2018-04-06T21:05:04+00:00,2025-06-17T21:08:28+00:00
+357,Skis,1,Snow Sports 929/Skis,542,549,354,2018-04-06T21:05:20+00:00,2025-06-17T21:08:28+00:00
+358,Cross Country,2,Snow Sports 929/Skis/Cross Country,547,548,357,2018-04-06T21:06:21+00:00,2025-06-17T21:08:28+00:00
+359,Back Country,2,Snow Sports 929/Skis/Back Country,545,546,357,2018-04-06T21:06:26+00:00,2025-06-17T21:08:28+00:00
+360,Alpine,2,Snow Sports 929/Skis/Alpine,543,544,357,2018-04-06T21:06:49+00:00,2025-06-17T21:08:28+00:00
+361,Snow Packs,1,Snow Sports 929/Snow Packs,550,551,354,2018-04-06T21:07:16+00:00,2025-06-17T21:08:28+00:00
+362,Snow Safety,1,Snow Sports 929/Snow Safety,552,559,354,2018-04-06T21:07:22+00:00,2025-06-17T21:08:28+00:00
+363,Beacons,2,Snow Sports 929/Snow Safety/Beacons,553,554,362,2018-04-06T21:07:45+00:00,2025-06-17T21:08:28+00:00
+364,Shovels,2,Snow Sports 929/Snow Safety/Shovels,557,558,362,2018-04-06T21:07:49+00:00,2025-06-17T21:08:28+00:00
+365,Poles,2,Snow Sports 929/Snow Safety/Poles,555,556,362,2018-04-06T21:07:55+00:00,2025-06-17T21:08:28+00:00
+366,Boots,1,Snow Sports 929/Boots,516,521,354,2018-04-06T21:08:37+00:00,2025-06-17T21:08:28+00:00
+367,Helmets,1,Snow Sports 929/Helmets,522,523,354,2018-04-06T21:08:47+00:00,2025-06-17T21:08:28+00:00
+368,Ski Jackets,1,Snow Sports 929/Ski Jackets,524,531,354,2018-04-06T21:09:09+00:00,2025-06-17T21:08:28+00:00
+369,Ski Pants,1,Snow Sports 929/Ski Pants,532,539,354,2018-04-06T21:09:17+00:00,2025-06-17T21:08:28+00:00
+370,Men's ,2,Snow Sports 929/Ski Jackets/Men's ,527,528,368,2018-04-06T21:09:34+00:00,2025-06-17T21:08:28+00:00
+371,Women's,2,Snow Sports 929/Ski Jackets/Women's,529,530,368,2018-04-06T21:09:38+00:00,2025-06-17T21:08:28+00:00
+372,Kid's,2,Snow Sports 929/Ski Jackets/Kid's,525,526,368,2018-04-06T21:09:42+00:00,2025-06-17T21:08:28+00:00
+373,Men's,2,Snow Sports 929/Ski Pants/Men's,535,536,369,2018-04-06T21:09:52+00:00,2025-06-17T21:08:28+00:00
+374,Women's,2,Snow Sports 929/Ski Pants/Women's,537,538,369,2018-04-06T21:09:55+00:00,2025-06-17T21:08:28+00:00
+375,Kid's,2,Snow Sports 929/Ski Pants/Kid's,533,534,369,2018-04-06T21:09:59+00:00,2025-06-17T21:08:28+00:00
+376,Ski Poles,1,Snow Sports 929/Ski Poles,540,541,354,2018-04-06T21:10:24+00:00,2025-06-17T21:08:28+00:00
+377,Cross Country,2,Snow Sports 929/Boots/Cross Country,519,520,366,2018-04-06T21:10:38+00:00,2025-06-17T21:08:28+00:00
+379,Alpine,2,Snow Sports 929/Boots/Alpine,517,518,366,2018-04-06T21:10:50+00:00,2025-06-17T21:08:28+00:00
+381,Quilts,3,Hard Goods/Camp Essentials/Sleep Systems 300/Quilts,160,161,56,2018-04-06T21:48:08+00:00,2025-06-17T21:25:15+00:00
+382,Pillows,3,Hard Goods/Camp Essentials/Sleep Systems 300/Pillows,158,159,56,2018-04-06T21:48:12+00:00,2025-06-17T21:25:15+00:00
+383,Repairs 410,2,Hard Goods/Equipment & Accessories/Repairs 410,375,376,77,2018-04-06T21:56:36+00:00,2025-06-17T21:25:15+00:00
+384,Sheets,3,Hard Goods/Camp Essentials/Sleep Systems 300/Sheets,162,163,56,2018-04-06T22:07:14+00:00,2025-06-17T21:25:15+00:00
+385,Sleeping Bags,3,Hard Goods/Camp Essentials/Sleep Systems 300/Sleeping Bags,166,175,56,2018-04-06T22:07:31+00:00,2025-06-17T21:25:15+00:00
+392,Men's Casual,2,Footwear/Men's Footwear 601/Men's Casual,53,62,18,2018-04-07T05:13:27+00:00,2025-06-17T21:25:15+00:00
+399,Hats,3,Soft Goods/Kid's Apparel 200/Kid's Soft Accessories/Hats,584,585,249,2018-04-10T11:47:32+00:00,2025-06-17T21:08:28+00:00
+402,Men's Insulation,3,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Insulation,616,621,257,2018-04-10T11:47:32+00:00,2025-06-17T21:08:28+00:00
+404,Women's Insulation,3,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Insulation,698,703,265,2018-04-10T11:47:32+00:00,2025-06-17T21:08:28+00:00
+405,Top,4,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Insulation/Top,701,702,404,2018-04-10T11:47:32+00:00,2025-06-17T21:08:28+00:00
+416,Compression Sacks,4,Hard Goods/Camp Essentials/Packs 301/Stuff Sacks/Compression Sacks,141,142,74,2018-04-11T20:18:24+00:00,2025-06-17T21:25:15+00:00
+420,Gaiters,3,Soft Goods/Men's Apparel 100/Men's Soft Accessories/Gaiters,628,629,180,2018-04-12T01:20:23+00:00,2025-06-17T21:08:28+00:00
+423,Solid Fuel,4,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Camp Fuel/Solid Fuel,221,222,129,2018-04-12T02:17:33+00:00,2025-06-17T21:25:15+00:00
+433,Glassware,3,Hard Goods/Equipment & Accessories/Home Goods 409/Glassware,308,309,159,2018-04-19T03:48:18+00:00,2025-06-17T21:25:15+00:00
+434,Gifts,3,Hard Goods/Equipment & Accessories/Home Goods 409/Gifts,306,307,159,2018-04-19T03:48:18+00:00,2025-06-17T21:25:15+00:00
+435,Bodycare,3,Hard Goods/Equipment & Accessories/Home Goods 409/Bodycare,302,303,159,2018-04-19T03:48:18+00:00,2025-06-17T21:25:15+00:00
+438,Climbing Accessories,3,Hard Goods/Equipment & Accessories/Climbing 400/Climbing Accessories,248,249,55,2018-04-27T01:02:11+00:00,2025-06-17T21:25:15+00:00
+440,Water Accessories,4,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles/Water Accessories,333,334,91,2018-04-27T01:02:11+00:00,2025-06-17T21:25:15+00:00
+441,Sunglasses,2,Soft Goods/Soft Accessories 106/Sunglasses,669,670,244,2018-04-27T05:16:32+00:00,2025-06-17T21:08:28+00:00
+446,Handbags,3,Soft Goods/Soft Accessories 106/Soft Accessories/Handbags,664,665,264,2018-04-27T13:54:48+00:00,2025-06-17T21:08:28+00:00
+457,PS Outerwear 500,1,Paddlesports/PS Outerwear 500,462,475,6,2018-04-28T01:17:14+00:00,2025-06-17T21:25:15+00:00
+458,Paddle Jackets,2,Paddlesports/PS Outerwear 500/Paddle Jackets,471,472,457,2018-04-28T01:17:14+00:00,2025-06-17T21:25:15+00:00
+462,Vendor Consignment 700,0,Vendor Consignment 700,749,760,0,2018-04-28T17:26:33+00:00,2025-06-17T21:08:28+00:00
+464,Jewelry,1,Vendor Consignment 700/Jewelry,756,757,462,2018-04-28T17:26:33+00:00,2025-06-17T21:08:28+00:00
+466,Art,1,Vendor Consignment 700/Art,750,751,462,2018-05-01T13:11:35+00:00,2025-06-17T21:08:28+00:00
+467,Gifts,1,Vendor Consignment 700/Gifts,752,753,462,2018-05-01T13:11:41+00:00,2025-06-17T21:08:28+00:00
+469,T-shirts,1,Vendor Consignment 700/T-shirts,758,759,462,2018-05-01T13:23:05+00:00,2025-06-17T21:08:28+00:00
+470,Drytops,2,Paddlesports/PS Outerwear 500/Drytops,469,470,457,2018-05-03T18:36:31+00:00,2025-06-17T21:25:15+00:00
+471,Drysuits,2,Paddlesports/PS Outerwear 500/Drysuits,467,468,457,2018-05-03T18:38:21+00:00,2025-06-17T21:25:15+00:00
+473,Wetsuits,2,Paddlesports/PS Outerwear 500/Wetsuits,473,474,457,2018-05-03T18:42:41+00:00,2025-06-17T21:25:15+00:00
+475,Booties,2,Paddlesports/PS Outerwear 500/Booties,463,464,457,2018-05-03T18:43:19+00:00,2025-06-17T21:25:15+00:00
+476,Dry Pants,2,Paddlesports/PS Outerwear 500/Dry Pants,465,466,457,2018-05-03T20:21:07+00:00,2025-06-17T21:25:15+00:00
+477,Spray Skirts,2,Paddlesports/PS Accessories 500/Spray Skirts,431,432,333,2018-05-03T20:21:07+00:00,2025-06-17T21:25:15+00:00
+478,Men's PS Layering,2,Paddlesports/PS Apparel 500/Men's PS Layering,439,440,15,2018-05-03T20:21:07+00:00,2025-06-17T21:25:15+00:00
+485,Double SB,4,Hard Goods/Camp Essentials/Sleep Systems 300/Sleeping Bags/Double SB,167,168,385,2018-05-13T01:49:26+00:00,2025-06-17T21:25:15+00:00
+491,Youth SB,4,Hard Goods/Camp Essentials/Sleep Systems 300/Sleeping Bags/Youth SB,173,174,385,2018-05-13T01:49:26+00:00,2025-06-17T21:25:15+00:00
+493,Other Soft Accessories,3,Soft Goods/Kid's Apparel 200/Kid's Soft Accessories/Other Soft Accessories,586,587,249,2018-05-25T23:48:38+00:00,2025-06-17T21:08:28+00:00
+495,Rentals 909,0,Rentals 909,477,510,0,2018-05-28T23:09:43+00:00,2025-06-17T21:25:15+00:00
+496,Kayaks,1,Rentals 909/Kayaks,496,497,495,2018-05-28T23:09:52+00:00,2025-06-17T21:08:28+00:00
+497,SUP,1,Rentals 909/SUP,498,509,495,2018-05-28T23:09:56+00:00,2025-06-17T21:08:28+00:00
+498,Camping,1,Rentals 909/Camping,482,493,495,2018-05-28T23:09:59+00:00,2025-06-17T21:08:28+00:00
+499,Tents,2,Rentals 909/Camping/Tents,491,492,498,2018-05-28T23:10:08+00:00,2025-06-17T21:08:28+00:00
+500,Backpack,2,Rentals 909/Camping/Backpack,483,484,498,2018-05-28T23:10:12+00:00,2025-06-17T21:08:28+00:00
+501,Stove,2,Rentals 909/Camping/Stove,489,490,498,2018-05-28T23:10:15+00:00,2025-06-17T21:08:28+00:00
+502,Sleeping Pad,2,Rentals 909/Camping/Sleeping Pad,487,488,498,2018-05-28T23:10:22+00:00,2025-06-17T21:08:28+00:00
+503,Sleeping Bag,2,Rentals 909/Camping/Sleeping Bag,485,486,498,2018-05-28T23:10:27+00:00,2025-06-17T21:08:28+00:00
+504,SUP Board,2,Rentals 909/SUP/SUP Board,499,500,497,2018-05-28T23:10:40+00:00,2025-06-17T21:08:28+00:00
+505,SUP Paddle,2,Rentals 909/SUP/SUP Paddle,505,506,497,2018-05-28T23:10:45+00:00,2025-06-17T21:08:28+00:00
+506,SUP Leash,2,Rentals 909/SUP/SUP Leash,501,502,497,2018-05-28T23:10:53+00:00,2025-06-17T21:08:28+00:00
+507,Straps,2,Rentals 909/SUP/Straps,507,508,497,2018-05-28T23:10:56+00:00,2025-06-17T21:08:28+00:00
+508,SUP PFD,2,Rentals 909/SUP/SUP PFD,503,504,497,2018-05-28T23:11:07+00:00,2025-06-17T21:08:28+00:00
+509,Camp Fun 400,2,Hard Goods/Equipment & Accessories/Camp Fun 400,209,212,77,2018-06-01T18:03:32+00:00,2025-06-17T21:25:15+00:00
+510,Windbreakers,2,Soft Goods/Soft Accessories 106/Windbreakers,673,674,244,2018-06-10T18:20:17+00:00,2025-06-17T21:08:28+00:00
+517,Tent Accessories,3,Hard Goods/Camp Essentials/Tents 300/Tent Accessories,186,187,58,2018-07-20T23:11:14+00:00,2025-06-17T21:25:15+00:00
+518,Stickers,3,Hard Goods/Equipment & Accessories/Home Goods 409/Stickers,314,315,159,2018-07-28T00:30:16+00:00,2025-06-17T21:25:15+00:00
+520,Water Purifier,4,Hard Goods/Equipment & Accessories/Hydration 400/Water Filters/Water Purifier,337,338,93,2018-07-28T03:20:38+00:00,2025-06-17T21:25:15+00:00
+525,Sleep Accessories,3,Hard Goods/Camp Essentials/Sleep Systems 300/Sleep Accessories,164,165,56,2018-07-28T04:01:37+00:00,2025-06-17T21:25:15+00:00
+528,Men's Running,2,Footwear/Men's Footwear 601/Men's Running,71,72,18,2018-07-28T04:01:37+00:00,2025-06-17T21:25:15+00:00
+536,Tops,4,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Hardshells/Tops,613,614,320,2018-09-27T03:51:15+00:00,2025-06-17T21:08:28+00:00
+539,Women's Town,3,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Town,704,705,265,2018-09-30T18:34:20+00:00,2025-06-17T21:08:28+00:00
+540,Men's Town,3,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Town,622,623,257,2018-10-05T16:42:56+00:00,2025-06-17T21:08:28+00:00
+553,Men's Hiking,2,Footwear/Men's Footwear 601/Men's Hiking,63,70,18,2018-11-29T13:56:27+00:00,2025-06-17T21:25:15+00:00
+554,Men's Hiking High,3,Footwear/Men's Footwear 601/Men's Hiking/Men's Hiking High,64,65,553,2018-11-29T13:56:27+00:00,2025-06-17T21:25:15+00:00
+555,Snacks 410,2,Hard Goods/Equipment & Accessories/Snacks 410,383,384,77,2018-11-29T13:56:27+00:00,2025-06-17T21:25:15+00:00
+557,Fitness,3,Hard Goods/Equipment & Accessories/Hygiene 410/Fitness,346,347,145,2018-12-06T15:11:57+00:00,2025-06-17T21:25:15+00:00
+558,Maps 410,2,Hard Goods/Equipment & Accessories/Maps 410,373,374,77,2018-12-06T15:30:35+00:00,2025-06-17T21:25:15+00:00
+559,Home Goods,1,Vendor Consignment 700/Home Goods,754,755,462,2018-12-06T16:47:39+00:00,2025-06-17T21:08:28+00:00
+560,Repairs,0,Repairs,511,512,0,2018-12-06T18:35:30+00:00,2025-06-17T21:08:28+00:00
+561,Wax,1,Snow Sports 929/Wax,562,565,354,2018-12-27T13:12:24+00:00,2025-06-17T21:08:28+00:00
+562,Cross Country,1,Rentals 909/Cross Country,494,495,495,2018-12-27T14:35:38+00:00,2025-06-17T21:08:28+00:00
+565,Women's Town,3,Soft Goods/Women's Apparel 200/Women's Skirts & Dresses/Women's Town,708,709,233,2019-03-09T16:38:12+00:00,2025-06-17T21:08:28+00:00
+591,T-shirts,2,Soft Goods/Soft Accessories 106/T-shirts,671,672,244,2021-04-10T22:08:25+00:00,2025-06-17T21:08:28+00:00
+593,Insulated Bottles,5,Hard Goods/Equipment & Accessories/Hydration 400/Water Bottles/Everyday Bottles/Insulated Bottles,326,327,97,2021-09-15T17:40:15+00:00,2025-06-17T21:25:15+00:00
+603,Cross Country,2,Snow Sports 929/Wax/Cross Country,563,564,561,2021-11-20T20:05:36+00:00,2025-06-17T21:08:28+00:00
+610,Good Gear 919,0,Good Gear 919,99,100,0,2022-01-05T19:14:46+00:00,2025-06-17T21:25:15+00:00
+611,Beer Donations 919,0,Beer Donations 919,1,2,0,2022-02-18T17:24:07+00:00,2025-05-27T19:44:26+00:00
+612,Events 919,0,Events 919,3,4,0,2022-02-18T17:24:19+00:00,2025-06-17T21:25:15+00:00
+883,Shipping Fees,0,Shipping Fees,513,514,0,2023-05-18T21:31:35+00:00,2025-06-17T21:08:28+00:00
+884,Top,4,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Hardshells/Top,695,696,326,2023-05-18T18:50:25+00:00,2025-06-17T21:08:28+00:00
+892,Women's Baselayers,2,Soft Goods/Women's Apparel 200/Women's Baselayers,677,680,185,2023-05-19T15:07:37+00:00,2025-06-17T21:08:28+00:00
+893,Women's Undergarments,3,Soft Goods/Women's Apparel 200/Women's Baselayers/Women's Undergarments,678,679,892,2023-05-19T15:07:37+00:00,2025-06-17T21:08:28+00:00
+900,Disc Golf,3,Hard Goods/Equipment & Accessories/Camp Fun 400/Disc Golf,210,211,509,2023-09-22T02:20:02+00:00,2025-06-17T21:25:15+00:00
+901,Drinkware,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Drinkware,232,233,127,2023-09-22T02:57:12+00:00,2025-06-17T21:25:15+00:00
+902,Coffee,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Coffee,224,225,127,2023-09-22T03:30:59+00:00,2025-06-17T21:25:15+00:00
+907,Belts,3,Soft Goods/Soft Accessories 106/Soft Accessories/Belts,662,663,264,2023-09-22T17:54:43+00:00,2025-06-17T21:08:28+00:00
+943,Quilts,2,Hard Goods/Camp Essentials/Quilts,155,156,54,2023-10-25T18:36:26+00:00,2025-06-17T21:25:15+00:00
+951,Lifestyle,4,Hard Goods/Camp Essentials/Packs 301/Backpacking Packs/Lifestyle,115,116,63,2023-10-26T17:10:31+00:00,2025-06-17T21:25:15+00:00
+993,GiftCards_Shopify,0,GiftCards_Shopify,97,98,0,2024-04-18T19:12:08+00:00,2025-06-17T21:25:15+00:00
+999,HatCap,3,Soft Goods/Soft Accessories 106/Hats/HatCap,658,659,262,2024-05-10T23:08:42+00:00,2025-06-17T21:08:28+00:00
+1220,Men's Apparel 100,1,Soft Goods/Men's Apparel 100,594,641,1,2024-07-03T13:22:56+00:00,2025-06-17T21:08:28+00:00
+1402,Bottoms,4,Soft Goods/Men's Apparel 100/Men's Outerwear/Men's Fleece/Bottoms,605,606,260,2024-07-16T19:43:06+00:00,2025-06-17T21:08:28+00:00
+1408,Bottoms,4,Soft Goods/Women's Apparel 200/Women's Outerwear/Women's Insulation/Bottoms,699,700,404,2024-07-16T20:12:27+00:00,2025-06-17T21:08:28+00:00
+1464,Bike Accessories,3,Hard Goods/Equipment & Accessories/Biking 400/Bike Accessories,192,193,201,2024-08-16T19:32:16+00:00,2025-06-17T21:25:15+00:00
+1465,Food Storage,3,Hard Goods/Equipment & Accessories/Camp Kitchen 404/Food Storage,234,235,127,2024-08-16T20:06:16+00:00,2025-06-17T21:25:15+00:00
+1560,Used 3ROC Products,1,Used Goods 700/Used 3ROC Products,734,735,166,2024-11-06T21:11:40+00:00,2025-06-17T21:08:28+00:00
+1561,Ornaments,3,Hard Goods/Equipment & Accessories/Home Goods 409/Ornaments,310,311,159,2024-11-14T00:52:36+00:00,2025-06-17T21:25:15+00:00
+1570,Mens Socks,2,Footwear/Footwear Accessories 600/Mens Socks,9,18,235,2025-03-19T03:40:08+00:00,2025-06-17T21:25:15+00:00
+1571,Womens Socks,2,Footwear/Footwear Accessories 600/Womens Socks,19,28,235,2025-03-19T03:40:15+00:00,2025-06-17T21:25:15+00:00
+1572,Running,3,Footwear/Footwear Accessories 600/Mens Socks/Running,14,15,1570,2025-03-19T03:40:30+00:00,2025-06-17T21:25:15+00:00
+1573,Hike/Trek,3,Footwear/Footwear Accessories 600/Mens Socks/Hike&/Trek,10,11,1570,2025-03-19T03:40:40+00:00,2025-06-17T21:25:15+00:00
+1574,Running,3,Footwear/Footwear Accessories 600/Womens Socks/Running,24,25,1571,2025-03-19T03:41:05+00:00,2025-06-17T21:25:15+00:00
+1575,Hike/Trek,3,Footwear/Footwear Accessories 600/Womens Socks/Hike&/Trek,20,21,1571,2025-03-19T03:41:12+00:00,2025-06-17T21:25:15+00:00
+1576,Lifestyle,3,Footwear/Footwear Accessories 600/Womens Socks/Lifestyle,22,23,1571,2025-03-19T03:43:18+00:00,2025-06-17T21:25:15+00:00
+1577,Lifestyle,3,Footwear/Footwear Accessories 600/Mens Socks/Lifestyle,12,13,1570,2025-03-19T03:43:34+00:00,2025-06-17T21:25:15+00:00
+1578,Winter,3,Footwear/Footwear Accessories 600/Mens Socks/Winter,16,17,1570,2025-03-19T03:49:44+00:00,2025-06-17T21:25:15+00:00
+1579,Winter,3,Footwear/Footwear Accessories 600/Womens Socks/Winter,26,27,1571,2025-03-19T03:49:55+00:00,2025-06-17T21:25:15+00:00
+1580,Fees,0,Fees,5,6,0,2025-04-03T14:26:51+00:00,2025-06-17T21:25:15+00:00
+1581,ARP 2025,1,Rentals 909/ARP 2025,478,479,495,2025-05-22T02:54:14+00:00,2025-06-17T21:25:15+00:00
+1582,Camp Rental 2025,1,Rentals 909/Camp Rental 2025,480,481,495,2025-06-17T21:08:28+00:00,2025-06-17T21:25:15+00:00
